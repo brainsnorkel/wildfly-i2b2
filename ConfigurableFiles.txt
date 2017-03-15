@@ -1,6 +1,7 @@
-standalone.xml
-crcapp/CRCApplicationContext.xml
-crcapp/CRCLoaderApplicationContext.xml
-crcapp/crc.properties
-crcapp/edu.harvard.i2b2.crc.loader.properties
+configuration/standalone.xml
+configuration/crcapp/CRCApplicationContext.xml
+configuration/crcapp/CRCLoaderApplicationContext.xml
+configuration/crcapp/crc.properties
+configuration/crcapp/edu.harvard.i2b2.crc.loader.properties
+deployments/crc-ds.xml
 

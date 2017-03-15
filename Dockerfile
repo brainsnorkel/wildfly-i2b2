@@ -13,7 +13,7 @@ RUN yum autoremove -y
 
 
 ADD standalone/configuration/* ${JBOSS_HOME}/standalone/configuration/
-ADD standalone/deployments/* ${JBOSS_HOME}/standalone/deployments/
+ADD standalone/deployments/ ${JBOSS_HOME}/standalone/deployments/
 
 
 RUN chmod -R a+rw ${JBOSS_HOME}
